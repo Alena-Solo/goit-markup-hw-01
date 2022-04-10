@@ -1,3 +1,43 @@
+/* колір основного тексту #212121 */
+/* колір другорядного тексту #757575 */
+/* колір mail tel footer rgba(255, 255, 255, 0.6); */
+/* заголовок hero та adress footer  #FFFFFF */
+/* фон hero та footer #2F303A */
+/* основний фон #E5E5E5 */
+/* фон наша команда #F5F4FA */
+/* акцент #2196F3 */
+
+:root {
+  --accent-color: #2196f3;
+  --title-text-color: #212121;
+  --primary-text-color: #757575;
+  --text-footer-contact: rgba(255, 255, 255, 0.6);
+  --background-hero-address: #2f303a;
+  --backgraund-main: #e5e5e5;
+  --backgraund-team: #f5f4fa;
+}
 body {
   font-family: "Roboto", Ubuntu, sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+.header {
+  background-color: var(--backgraund-main);
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.hero {
+  background-color: var(--background-hero-adress);
 }
