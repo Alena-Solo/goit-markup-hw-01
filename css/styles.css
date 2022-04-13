@@ -15,6 +15,7 @@
   --background-hero-address: #2f303a;
   --backgraund-main: #e5e5e5;
   --backgraund-team: #f5f4fa;
+  --white-text-color: #ffffff;
 }
 body {
   font-family: "Roboto", Ubuntu, sans-serif;
@@ -91,7 +92,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--white-text-color);
   background-color: var(--background-hero-address);
 }
 
@@ -105,7 +106,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
 
-  color: #ffffff;
+  color: var(--white-text-color);
 }
 .feature {
   background-color: var(--backgraund-main);
@@ -162,13 +163,13 @@ body {
 }
 
 .studio-footer {
-  color: #ffffff;
+  color: var(--white-text-color);
 }
 .footer-link {
   line-height: 1.7;
 
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--white-text-color);
 }
 
 .footer-link :hover,
@@ -199,7 +200,7 @@ body {
 .portfolio-item .link:hover,
 :focus {
   background-color: var(--accent-color);
-  color: #ffffff;
+  color: var(--white-text-color);
 }
 .portfolio-title {
   font-weight: 700;
@@ -212,7 +213,6 @@ body {
 .portfolio-text {
   font-size: 16px;
   line-height: 1.9;
-
   letter-spacing: 0.03em;
 
   color: var(--primary-text-color);
